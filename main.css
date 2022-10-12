@@ -19,6 +19,16 @@ p {
     line-height: 1.7rem;
 }
 
+.whatsapp-float {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+.whatsapp-float img {
+    width: 100px;
+}
+
 .nav-banner {
     display: flex;
     justify-content: space-around;
@@ -581,7 +591,7 @@ p.stats {
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
-    background: url("Images/banner\ -\ Shortcut.lnk") no-repeat;
+    background: url("Images/banner.png") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -848,6 +858,50 @@ p.stats {
 }
 
 /* About Page */
+.banner1 {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner1 img {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.office {
+    position: relative;
+}
+
+.imgslide-body {
+    margin: 5rem 0;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 49%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
 
 .about-header {
     padding: 2rem;
@@ -880,6 +934,7 @@ p.stats {
 #about-head {
     display: flex;
     align-items: center;
+    margin: 3rem 0;
 }
 
 #about-head div {
@@ -910,6 +965,10 @@ p.stats {
 @media (max-width:477px) {
     body {
         overflow-x: hidden;
+    }
+
+    .whatsapp-float {
+        right: -30px;
     }
 
     .shop-cart {
@@ -1210,6 +1269,10 @@ p.stats {
     body {
         width: 100%;
         overflow-x: hidden;
+    }
+
+    .whatsapp-float {
+        right: -30px;
     }
 
     .shop-cart {
