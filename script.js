@@ -9,7 +9,7 @@ const navSlide = () => {
 
 navSlide();
 
-/* Image Product Slider */
+/* Auto-typing Effect */
 
 var typed = new Typed(".auto-input", {
   strings: ["We are Reliable.", "We are Efficient.", "We are Customer-driven."],
@@ -17,6 +17,8 @@ var typed = new Typed(".auto-input", {
   backSpeed: 100,
   loop: true,
 });
+
+/* Image Product Slider */
 
 const carouselSlide = document.querySelector(".carousel-slide");
 const carouselImages = document.querySelectorAll(".carousel-slide img");
